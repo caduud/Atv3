@@ -7,6 +7,5 @@ public class Curso {
         turma2.exibirDados();
 
         System.out.printf("Curso: %s Disciplina: %s %n", turma1.getCurso(), turma1.getDisciplina());
-        System.out.printf("Curso: %s Disciplina: %s", turma2.getCurso(), turma2.getDisciplina());
-    }
+        System.out.printf("Curso: %s Disciplina: %s", turma2.getCurso(), turma2.getDiscipl
 }
