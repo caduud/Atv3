@@ -4,7 +4,7 @@ public class TestaRetangulo {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
 
-        Retangulo retangulo = new Retangulo();
+
         System.out.print("Adicione o comprimento: ");
         double comprimento = sc.nextDouble();
         while(validacao(comprimento)){
@@ -18,7 +18,7 @@ public class TestaRetangulo {
             System.out.println("Tente novamente com um número positivo: ");
             largura = sc.nextDouble();
         }
-
+        Retangulo retangulo = new Retangulo(comprimento,largura);
 
         retangulo.saida();
     }
