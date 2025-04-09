@@ -1,3 +1,5 @@
+package Banco;
+
 public class ContasApp {
     public static void main(String[] args) {
         ContaCorrente[] conta = new ContaCorrente[3];
