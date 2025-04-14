@@ -1,9 +1,10 @@
 package geometria;
 
 public class Circulo extends Figura{
+    Figura figura = new Figura();
 
     @Override
     public double area(double raio1) {
-        return (3.14 * Math.pow(raio1, 2));
+        return figura.area(Math.PI * Math.pow(raio1, 2));
     }
 }
