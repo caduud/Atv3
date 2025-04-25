@@ -9,6 +9,5 @@ public class TestaFigura {
 
         System.out.println("Area quadrado: " + quadrado.area(4));
         System.out.println("Area circulo: " + circulo.area(4));
-
     }
 }
